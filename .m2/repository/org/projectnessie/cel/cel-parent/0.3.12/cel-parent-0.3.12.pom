@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.projectnessie.cel</groupId>
+  <artifactId>cel-parent</artifactId>
+  <version>0.3.12</version>
+  <packaging>pom</packaging>
+  <name>cel-parent</name>
+  <description>cel-parent</description>
+  <url>https://github.com/projectnessie/cel-java</url>
+  <inceptionYear>2021</inceptionYear>
+  <organization>
+    <name>Project Nessie</name>
+    <url>https://projectnessie.org</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>snazy</id>
+      <name>Robert Stupp</name>
+      <url>https://github.com/snazy</url>
+    </developer>
+    <developer>
+      <id>nastra</id>
+      <name>Eduard Tudenhoefner</name>
+      <url>https://github.com/nastra</url>
+    </developer>
+    <developer>
+      <id>rymurr</id>
+      <name>Ryan Murray</name>
+      <url>https://github.com/rymurr</url>
+    </developer>
+    <developer>
+      <id>laurentgo</id>
+      <name>Laurent Goujon</name>
+      <url>https://github.com/laurentgo</url>
+    </developer>
+  </developers>
+  <contributors>
+    <contributor>
+      <name>alancao-uber</name>
+      <url>https://github.com/alancao-uber</url>
+    </contributor>
+  </contributors>
+  <mailingLists>
+    <mailingList>
+      <name>Project Nessie List</name>
+      <subscribe>projectnessie-subscribe@googlegroups.com</subscribe>
+      <unsubscribe>projectnessie-unsubscribe@googlegroups.com</unsubscribe>
+      <post>projectnessie@googlegroups.com</post>
+      <archive>https://groups.google.com/g/projectnessie</archive>
+    </mailingList>
+  </mailingLists>
+  <scm>
+    <connection>scm:git:https://github.com/projectnessie/cel-java</connection>
+    <developerConnection>scm:git:https://github.com/projectnessie/cel-java</developerConnection>
+    <tag>main</tag>
+    <url>https://github.com/projectnessie/cel-java/tree/main</url>
+  </scm>
+  <issueManagement>
+    <system>Github</system>
+    <url>https://github.com/projectnessie/cel-java/issues</url>
+  </issueManagement>
+</project>
